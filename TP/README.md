@@ -129,3 +129,24 @@ curl -X POST http://localhost:5000/tasks \
 ![](../img/ajout2.png)
 
 ![](../img/nav2.png)
+
+## Hadolint : Analyse statique de Dockerfiles
+
+Hadolint est conçu pour analyser les Dockerfiles et détecter les erreurs, les mauvaises pratiques et les recommandations d’optimisation.
+
+### Installation sur ubuntu
+
+````shell
+sudo wget -O /usr/local/bin/hadolint https://github.com/hadolint/hadolint/releases/latest/download/hadolint-$(uname -s)-$(uname -m)
+sudo chmod +x /usr/local/bin/hadolint
+````
+
+![](../img/hadolint_version.png)
+
+### Analyse
+
+![](../img/err_Dockerfile.png)
+
+![](../img/analyse.png)
+
+

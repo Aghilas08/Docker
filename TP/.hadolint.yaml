@@ -1,0 +1,9 @@
+ignored: []              # Aucune règle ignorée
+failure-threshold: info  # Affiche tout (info, warning, error, style)
+format: tty              # Affichage lisible dans le terminal
+no-color: false          # Couleurs activées
+no-fail: false           # Fait échouer en cas d’erreur
+verbose: true            # (non documenté officiellement mais reconnu)
+strict-labels: false     # Pas de vérification stricte des labels
+disable-ignore-pragma: false
+trustedRegistries: []    # Aucune restriction de registre
